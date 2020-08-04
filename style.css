@@ -1,0 +1,29 @@
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+
+.titlename{
+font-size: 20px;
+align-content: center;
+}
+
+.img-fluid{
+max-width: 100%;
+height: auto;
+}
+
+.bio {
+  padding-top: 70px;
+  padding-left: -100px;
+  width: left;
+  font-size: 30px;
+}
+
+.booking {
+  padding-top: 50px;
+  color: #D2996C;
+}
