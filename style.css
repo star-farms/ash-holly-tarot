@@ -1,29 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* aligns anything between header tag, including button */
+header {
+  display: flex;
+  justify-content: flex-end;
+  /* background: lightblue; */
+  width: 100%;
+  margin: auto;
+}
+
+/* .btn-primary,
+.btn-hover,
+.btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
+    padding: 20px
+} */
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #117A65 !important;
+  padding: 15px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+}
+
+.btn-primary:hover {
+  background-color: #AEB6BF !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+}
+
 .page-holder {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 .bg-cover {
-  background-size: cover !important;
+    display: flex;
+    margin-bottom: 70px;
+    background-size: cover !important;
 }
 
-.titlename{
-font-size: 20px;
-align-content: center;
+.profilename{
+  /* margin-top: 70px !important; */
+  font-style: bold;
+  font-size: 20px;
+  align-content: center;
 }
 
 .img-fluid{
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .bio {
-  padding-top: 70px;
-  padding-left: -100px;
+  padding-top: 125px;
+  margin-top: 125px
+  /* padding-left: -100px; */
+  /* margin-left: 150px; */
   width: left;
   font-size: 30px;
 }
 
 .booking {
-  padding-top: 50px;
+  margin-top: 90px;
+  margin-left: 40px;
+  /* padding-top: 50px; */
   color: #D2996C;
 }
